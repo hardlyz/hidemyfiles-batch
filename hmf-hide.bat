@@ -6,7 +6,7 @@ cls
 
 
 if "%~1"=="" (
-    echo Âû íå ïåðåíåñëè ôàéë íà ýòîò ôàéë.
+    echo You didn't drag and drop a file onto this file.
     pause
     exit /b
 )
@@ -15,5 +15,5 @@ set "file=%~1"
 
 attrib +h +s "%file%"
 
-echo Àòðèáóòû óñïåøíî íàçíà÷åíû äëÿ ôàéëà %file%.
+echo Attributes successfully assigned to file %file%.
 pause
