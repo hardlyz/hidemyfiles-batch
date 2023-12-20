@@ -1,7 +1,5 @@
-
 @echo off
 setlocal
-chcp 1251
 cls
 
 
